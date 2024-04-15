@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "customer-churn"
+version = "0.1.0"
+description = ""
+authors = ["Sheida Majidi <97121417+SheidaMajidi@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+numi = "^0.0.13"
+numpy = "^1.26.4"
+Flask = "^3.0.3"
+sklearn = "^0.0.post12"
+tensorflow = "^2.16.1"
+seaborn = "^0.13.2"
+plotly = "^5.20.0"
+tensorflow-keras-lite = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
